@@ -46,7 +46,7 @@ function ProductInfo({ product }) {
             onClick={() => setIsExpanded(!isExpanded)}
             className="read-more-toggle-button"
           >
-            {isExpanded ? 'Read Less' : 'Read More'}
+            {isExpanded ? 'Read Less is more' : 'Read More is less'}
           </button>
         )}
       </p>
